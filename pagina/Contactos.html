@@ -5,79 +5,118 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">
+   <!--  <link rel="stylesheet" href="../css/style.css"> -->
+   <link rel="stylesheet" href="../sass/main.css">
+   <meta name="description" content="sahumar sahumerios productos de limpieza ambiental" >
     <title>Contacto</title>
 </head>
 
 <body  class="bodyContacto">
-    <header>
-        <div class="menu">
-  
-          <img class="logo" src="../img/logo.jfif"  alt="logo">
-  
-          <nav>  
-            <ul>
-              <li><a href="../index.html">Inicio</a></li>
-              <li><a href="./Opiniones.html">Opiniones</a></li>
-              <li><a href="./Nosotros.html">Nosotros</a></li>
-              <li><a href="./Productos.html">Productos</a></li>
-              <li><a href="./Contactos.html">Contactos</a></li>
-            </ul>
-          </nav>
-  
+   
+
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <div class="container-fluid" id="container-navbar">
+
+        <img
+          src="../img/logo.jfif"
+          alt="logo sahumar"
+          id="sahumar-logo"
+        />
+
+        <!-- boton del menu -->
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#menu"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- elementos del menu colapsable -->
+
+        <div class="collapse navbar-collapse" id="menu">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="../index.html"
+                >Inicio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pagina/Nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pagina/Productos.html">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pagina/Opiniones.html"
+                >Opiniones</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pagina/Contactos.html">Contacto</a>
+            </li>
+          </ul>
+
+          <hr class="d-md-none text-white-50" />
         </div>
-      </header>
-
-
-      <div class="contenedor" >
-        
-        
-        <form action="" class="formu">
-          
-          <h1 class="contacto">Contacto</h1>
-          <p class="numerodetelefono">Contactanos y recibí asesoramiento sobre nuestros artículos de Santería.</p>
-          
-          <p class="wpp">Teléfono <A href=""> +54 911 6043-0600</A></p>
-          
-          <br><br>
-          
-          <label for="nombre" class="form-label">Nombre  </label>
-          <input type="text" name="" id="nombre" placeholder="nombre">
-          <br><br>
-          
-          
-          <label for="apellido"class="form-label" >Apellido</label>
-          <input type="text" name="" id="apellido" placeholder="apellido">
-          <br><br>
-          
-          <label for="correo" class="form-label"  >Correo</label>
-          <input type="email" name="" id="correo" placeholder="correo">
-          <br><br>
-          
-          <label for="telefono" class="form-label"  >Telefono</label>
-          <input type="text" name="" id="telefono">
-          <br><br>
-          
-          <textarea name="mensaje" cols="50" rows="10" placeholder="Escriba su mensaje" ></textarea>
-          <br><br>
-          
-          <input type ="submit" class="btn-enviar"  value="Enviar">
-          
-          
-          
-          
-          
-        </form>
-        
       </div>
+    </nav>
+  </header>
 
 
+  
 
 
+  <h1 class="logo">CONTACTO</h1>
 
-
-
-
+  <div class="contact-wrapper animated bounceInUp">
+      <div class="contact-form">
+          <h3>Contacto</h3>
+          <form action="">
+              <p>
+                  <label>Nombre</label>
+                  <input type="text" name="fullname" placeholder="Nombre">
+              </p>
+              <p>
+                  <label>Email</label>
+                  <input type="email" name="email" placeholder="Email">
+              </p>
+              <p>
+                  <label>Telefono</label>
+                  <input type="tel" name="phone" placeholder="Telefono">
+              </p>
+              <p class="block">
+                 <label>Mensaje</label> 
+                  <textarea name="message" rows="3" placeholder="Tu mensaje aqui"></textarea>
+              </p>
+              <p class="block">
+                  <button type="submit">Enviar</button>
+              </p>
+          </form>
+      </div>
+      <div class="contact-info">
+          <h4>MÃ¡s Informacion</h4>
+          <ul>
+              <li><img
+                  src="../img/instagram.svg"
+                  alt="logotipo de instagram"
+                  id="instagram"
+                />  <a href="#" title="">Seguinos en nuestro Instagram</a>
+              
+              
+            </ul>
+      </div>
+  </div>
+</div>
 
 
 

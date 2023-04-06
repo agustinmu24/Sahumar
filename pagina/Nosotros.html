@@ -4,31 +4,71 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">
+    <!-- <link rel="stylesheet" href="../css/style.css"> -->
+    <link rel="stylesheet" href="../sass/main.css">
     <title>nosotros</title>
+    <meta name="description" content="sahumar sahumerios productos de limpieza ambiental" >
 </head>
 <body>
-    <header>
-        <div class="menu">
-  
-          <img class="logo" src="../img/logo.jfif" alt="logo">
-  
-          <nav>  
-            <ul>
-              <li><a href="../index.html">Inicio</a></li>
-              <li><a href="./Opiniones.html">Opiniones</a></li>
-              <li><a href="./Nosotros.html">Nosotros</a></li>
-              <li><a href="./Productos.html">Productos</a></li>
-              <li><a href="./Contactos.html">Contactos</a></li>
-            </ul>
-          </nav>
-  
+   
+
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <div class="container-fluid" id="container-navbar">
+
+        <img
+          src="../img/logo.jfif"
+          alt="logo sahumar"
+          id="sahumar-logo"
+        />
+
+        <!-- boton del menu -->
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#menu"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- elementos del menu colapsable -->
+
+        <div class="collapse navbar-collapse" id="menu">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="../index.html"
+                >Inicio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pagina/Nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pagina/Productos.html">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pagina/Opiniones.html"
+                >Opiniones</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pagina/Contactos.html">Contacto</a>
+            </li>
+          </ul>
+
+          <hr class="d-md-none text-white-50" />
         </div>
-      </header>
-
-
-
-
+      </div>
+    </nav>
+  </header>
 
 
 
