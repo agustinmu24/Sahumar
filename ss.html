@@ -1,0 +1,66 @@
+
+   
+    <!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Carrusel con Bootstrap</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Asegúrate de incluir el archivo de estilo de Bootstrap -->
+</head>
+
+<body>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicadores -->
+    <ul class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ul>
+
+    <!-- Slides -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/aromanza.jpeg" alt="Imagen 1">
+        <div class="carousel-caption">
+          <h3>Imagen 1</h3>
+          <p>Descripción de la imagen 1</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/aromanza.jpeg" alt="Imagen 2">
+        <div class="carousel-caption">
+          <h3>Imagen 2</h3>
+          <p>Descripción de la imagen 2</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/aromanza.jpeg" alt="Imagen 3">
+        <div class="carousel-caption">
+          <h3>Imagen 3</h3>
+          <p>Descripción de la imagen 3</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Controles de navegación -->
+    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Anterior</span>
+    </a>
+    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Siguiente</span>
+    </a>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!-- Asegúrate de incluir los archivos de JavaScript de Bootstrap -->
+</body>
+
+</html>
+
+
