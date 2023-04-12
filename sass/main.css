@@ -19,6 +19,12 @@ header {
   display: table;
 }
 
+@media screen and (max-width: 700px) { 
+  .column {
+      width: 50%;}
+    }
+
+
 .menu {
   width: 900px;
   margin: 0 auto;
@@ -140,6 +146,7 @@ nav ul li a :hover::before {
   background: #ff8097;
   margin: 0px;
   padding: 130px 0 130px 0;
+  margin-top: 50px;
   /*  text-align: ; */
 }
 
@@ -255,6 +262,14 @@ nav ul li a :hover::before {
   margin-left: 10px;
   height: 30px;
 }
+
+
+.carousel-item img{
+  width: 869px;
+  height: 581px;
+  }
+
+
 
 /* PRODUCTOS */
 .produc {
