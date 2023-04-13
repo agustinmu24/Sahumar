@@ -124,6 +124,10 @@ nav ul li a :hover::before {
   font-weight: bold;
 }
 
+.envio h2 h3 p{
+  text-align: center;
+}
+
 .rounded {
   size: 15px;
   background: black;
