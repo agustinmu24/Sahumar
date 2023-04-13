@@ -19,10 +19,18 @@ header {
   display: table;
 }
 
-@media screen and (max-width: 700px) { 
+/* @media screen and (max-width: 700px) { 
   .column {
       width: 50%;}
     }
+ */
+
+ @media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
 
 
 .menu {
