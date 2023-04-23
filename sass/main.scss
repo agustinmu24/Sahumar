@@ -4,10 +4,11 @@
 
 
 *{
-  /* outline: 1px solid red; */
+  margin: 0;
+  padding: 0;
    font-family: Georgia, 'Times New Roman', Times, serif;
   color: black;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 }
 
  body {
@@ -33,44 +34,14 @@ margin: 0 auto;
 
 
 img.logo{
-   width: 100px ;
+   width: 50px ;
    height: 75px;
    float: left;
    padding: 4px;
 }
 
-nav{
-   float: right;
-}
-
-nav ul li {
-   list-style: none;
-   padding: 20px 0;
-   margin-left: 75px;
-   float: left;    
-   position: relative;
-}
-
-nav ul li a{
-   text-decoration: none;
-   color: white;
-   font-weight:bold ;
-}
-
-nav ul li a::before{
-   display: block;
-      content:" " ;
-      width: 0px;
-      background: white;
-      height: 5px;
-      top: 0%;
-      position: absolute;
-
-}
-
-nav ul li a :hover::before{
-   width: 100%;
-
+.nav-link{
+  color: white;
 }
 
 .encabezado-img{
@@ -104,6 +75,11 @@ font-weight: bold;
 }
 .wpp a{ 
 color: #ccc;
+}
+
+#sahumar-logo{
+  width: 150px;
+  height: auto;
 }
 
 /* #separador{
@@ -192,53 +168,49 @@ color: #ccc;
   
 }
 
-.asesoramiento{
-  text-align: left;
-  display: flex ;
-}
-
-.asesoramiento img{
-  
-  width: 650px;
-}
-
-.text h2{
-  text-align:justify;
- padding: 100px;
-  
-  
-}
-
-.text p{
-  text-align: justify;
-  margin: 20px;
-}
-
-.asesoramiento1 {
-  float: right;
-
-}
-  
-  
-  
-
-
-.asesoramiento1 img{
-  
-  width: 693px;
-}
-
-.info h2{
-  text-align: justify;
-  padding: 100PX;
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  max-width: 100%;
+  .asesoramiento1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .asesoramiento2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    a{
+      .fa-whatsapp{
+        color: green;
+        font-size: 100px;
+      }
+    }
+  }
+  .grid-item{
+    img{
+      width: 650px;
+      margin-left: px;
+    }
+  }
 
 }
 
-.info P{
-  text-align: center;
-  margin: 10px;
-  
+
+.imagen{
+  width: 100px;
+  height: auto;
 }
+
+.productos-principal{
+  margin-right: 0px;
+}
+
+
 
 /* CONTACTOS */
 
@@ -436,4 +408,42 @@ font-weight: bold;
    margin: 15px 0 15px 25px;
    color: #ccc;
  }
+
+ .colum1{
+  p{
+    color: white;
+  }
+ }
+
+  .colum2 .rowf img {
+  width: 35px;
+  height: 36px;
+} 
+
+
+
+
+
+
+
+ @media (max-width: 500px) {
+  .grid-container{
+    grid-template-columns: 1fr; 
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+  
+    .info-nosotros span{
+      font-size: 10px;
+      text-align: justify;
+
+    }
+
+  
+ }
  
+ @media (max-width: 768px) {
+  .grid-container{
+    grid-template-columns: 1fr; 
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+ }
