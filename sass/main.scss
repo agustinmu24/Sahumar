@@ -194,12 +194,19 @@ color: #ccc;
   .grid-item{
     img{
       width: 650px;
-      margin-left: px;
+      
     }
   }
 
 }
 
+.grid-item .asesoramiento1{
+  
+}
+.productos-principal{
+  margin-left: -100px;
+  margin-top: 50px;
+}
 
 .imagen{
   width: 100px;
@@ -208,6 +215,14 @@ color: #ccc;
 
 .productos-principal{
   margin-right: 0px;
+}
+
+.infosa{
+  margin: 150px;
+  
+}
+.fondo{
+  background-color: antiquewhite;
 }
 
 
@@ -438,8 +453,22 @@ font-weight: bold;
 
     }
 
-  
  }
+
+
+ @media (max-width: 390px) {
+  .grid-container{
+    grid-template-columns: 1fr; 
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+
+  }
+  .imgPrin{
+
+   visibility: hidden;
+  }
+  .
+
+}
  
  @media (max-width: 768px) {
   .grid-container{
