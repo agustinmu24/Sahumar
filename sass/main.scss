@@ -218,7 +218,8 @@ color: #ccc;
 }
 
 .infosa{
-  margin: 150px;
+  margin-top: 70px;
+  text-align: center;
   
 }
 .fondo{
@@ -475,4 +476,8 @@ font-weight: bold;
     grid-template-columns: 1fr; 
     grid-template-rows: 1fr 1fr 1fr 1fr;
   }
+ }
+
+ .tituloNosotros{
+  padding-top: 50px;
  }
