@@ -442,7 +442,7 @@ font-weight: bold;
 
 
 
- @media (max-width: 500px) {
+  /* @media (max-width: 500px) {
   .grid-container{
     grid-template-columns: 1fr; 
     grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -463,21 +463,21 @@ font-weight: bold;
     grid-template-rows: 1fr 1fr 1fr 1fr;
 
   }
-  .imgPrin{
-
-   visibility: hidden;
-  }
   
 
 }
- 
+ */
  @media (max-width: 768px) {
   .grid-container{
     grid-template-columns: 1fr; 
     grid-template-rows: 1fr 1fr 1fr 1fr;
   }
- }
+ } 
 
  .tituloNosotros{
   padding-top: 50px;
+ }
+ .imgPrin{
+
+  visibility: hidden;
  }

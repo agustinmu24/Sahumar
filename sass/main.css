@@ -381,25 +381,31 @@ footer {
   height: 36px;
 }
 
-@media (max-width: 500px) {
-  .grid-container {
-    grid-template-columns: 1fr;
+/* @media (max-width: 500px) {
+  .grid-container{
+    grid-template-columns: 1fr; 
     grid-template-rows: 1fr 1fr 1fr 1fr;
   }
-  .info-nosotros span {
-    font-size: 10px;
-    text-align: justify;
-  }
-}
-@media (max-width: 390px) {
-  .grid-container {
-    grid-template-columns: 1fr;
+
+    .info-nosotros span{
+      font-size: 10px;
+      text-align: justify;
+
+    }
+
+ }
+
+
+ @media (max-width: 390px) {
+  .grid-container{
+    grid-template-columns: 1fr; 
     grid-template-rows: 1fr 1fr 1fr 1fr;
+
   }
-  .imgPrin {
-    visibility: hidden;
-  }
+
+
 }
+ */
 @media (max-width: 768px) {
   .grid-container {
     grid-template-columns: 1fr;
@@ -408,4 +414,8 @@ footer {
 }
 .tituloNosotros {
   padding-top: 50px;
+}
+
+.imgPrin {
+  visibility: hidden;
 }/*# sourceMappingURL=main.css.map */
